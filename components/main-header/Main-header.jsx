@@ -1,16 +1,13 @@
-'use client';
-
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
 
 import MainHeaderBackground from "./Main-header-background";
+import NavLink from "./Nav-link";
 
 import logoImg from "@/assets/logo.png";
 import styles from "./main-header.module.css";
 
 export default function MainHeader() {
-  const pathname = usePathname();
 
   return (
     <>  
@@ -24,10 +21,10 @@ export default function MainHeader() {
         <nav className={styles.nav}>
           <ul>
             <li>
-              <Link href="/meals" className={`${pathname === "/meals" ? styles.active : ""}`}>Meals</Link>
+              <NavLink href="/meals">Meals</NavLink>
             </li>
             <li>
-              <Link href="/community" className={`${pathname === "/community" ? styles.active : ""}`}>Community</Link>
+              <NavLink href="/community">Community</NavLink>
             </li>
           </ul>
         </nav>

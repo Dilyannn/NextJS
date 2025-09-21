@@ -7,7 +7,7 @@ function SubmitButton() {
 
   return (
     <button disabled={pending}>
-      {pending ? "Submiting..." : "Share Meal"}
+      {pending ? "Submitting..." : "Share Meal"}
     </button>
   );
 }

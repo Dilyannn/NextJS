@@ -40,5 +40,4 @@ next-env.d.ts
 !/public/images/.gitkeep
 
 # SQLite local database (do not commit generated data)
-/meals.db
 meals.db

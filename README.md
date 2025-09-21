@@ -2,16 +2,6 @@
   <img src="https://skillicons.dev/icons?i=nextjs,react,js,css,nodejs,git,vscode,github&perline=9" />
 </p>
 
-<p align="center">
-  <!-- Next.js version badge (auto-detects from package.json) -->
-  <img src="https://img.shields.io/github/package-json/dependency-version/Dilyannn/Next.js-course/next?logo=nextdotjs&label=next&color=0b5fff&style=for-the-badge">
-
-  <!-- License badge (links to your LICENSE file in the repo) -->
-  <a href="https://github.com/Dilyannn/Next.js-course/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/Dilyannn/Next.js-course?color=brightgreen&style=for-the-badge">
-  </a>
-</p>
-
 ---
 
 # 🍔 NextLevel Food – Next.js Course Project

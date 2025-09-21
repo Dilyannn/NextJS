@@ -9,8 +9,7 @@ import styles from './page.module.css';
 
 export const metadata = {
   title: {
-    default: 'All Meals | NextLevel Food',
-    template: '%s | NextLevel Food'
+    default: 'All Meals'
   },
   description:
     'Browse, discover and share delicious home‑cooked meals: burgers, curry, dumplings, pizza, salads and more. Step‑by‑step instructions and community favorites.',

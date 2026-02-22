@@ -4,7 +4,8 @@ import { notFound } from "next/navigation";
 import { getMeal } from "../../../../lib/meals";
 import styles from "./page.module.css";
 
-export async function generateMetadata({ params }) {
+export async function generateMetadata(props) {
+  const params = await props.params;
   const meal = getMeal(params.mealSlug);
   if (!meal) {
     notFound();
@@ -57,7 +58,9 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function MealsDetailsPage({ params }) {
+export default async function MealsDetailsPage(props) {
+  const params = await props.params;
+
   const meal = getMeal(params.mealSlug);
   if (!meal) {
     notFound();

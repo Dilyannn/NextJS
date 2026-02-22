@@ -26,6 +26,7 @@
 .preview {
   width: 10rem;
   height: 10rem;
+  position: relative;
   border: 2px solid #a4abb9;
   display: flex;
   justify-content: center;
